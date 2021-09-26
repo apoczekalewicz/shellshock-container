@@ -1,4 +1,3 @@
-[ocp1@work ~]$ cat deploy.yml 
 apiVersion: v1
 kind: ServiceAccount
 metadata:
@@ -64,4 +63,3 @@ spec:
     port: 443
     protocol: TCP
     targetPort: 8443
-
