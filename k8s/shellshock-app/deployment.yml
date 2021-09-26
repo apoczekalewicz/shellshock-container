@@ -42,7 +42,7 @@ spec:
       serviceAccount: shellshock
       securityContext:
         runAsUser: 48
-        runAsGroup: 1
+        runAsGroup: 0
 ---
 apiVersion: v1
 kind: Service
