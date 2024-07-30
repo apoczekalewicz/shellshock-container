@@ -10,3 +10,4 @@ yum -y install mariadb*
 
 4294967295
 
+mysqldump --all-databases -h -u -p
