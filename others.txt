@@ -11,3 +11,5 @@ yum -y install mariadb*
 4294967295
 
 mysqldump --all-databases -h -u -p
+
+oc delete pods -l app.kubernetes.io/component=sensor -n rhacs-operator
